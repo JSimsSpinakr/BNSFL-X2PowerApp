@@ -123,6 +123,7 @@
     "X2NewTowerScreen",
     "NacelleNavScreen",
     "X2NacelleInspectionScreen",
-    "X2NewNacelleScreen"
+    "X2NewNacelleScreen",
+    "GeneratorNavScreen"
   ]
 }
