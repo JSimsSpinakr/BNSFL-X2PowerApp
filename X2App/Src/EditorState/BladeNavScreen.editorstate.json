@@ -92,7 +92,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "AddNewX2BladeButton",
-      "ParentIndex": 6,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -435,7 +435,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "BladeTitle",
-      "ParentIndex": 4,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -854,7 +854,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Icon2",
-      "ParentIndex": 3,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1415,7 +1415,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "PerformInspectionButton",
-      "ParentIndex": 5,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {

@@ -737,7 +737,7 @@ X2NewGeneratorScreen As screen:
         FontWeight: =FontWeight.Bold
         Height: =70
         Size: =23
-        Text: ="New X2 Blade"
+        Text: ="New X2 Generator"
         Width: =345
         X: =147
         Y: =130

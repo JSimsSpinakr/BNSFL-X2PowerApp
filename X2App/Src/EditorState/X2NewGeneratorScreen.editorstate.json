@@ -7732,7 +7732,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label1_1",
-      "ParentIndex": 5,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -8269,7 +8269,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "LogoBackdrop3_7",
-      "ParentIndex": 4,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -8550,7 +8550,7 @@
       "LayoutName": "vertical",
       "MetaDataIDKey": "",
       "Name": "NewX2BladeForm_1",
-      "ParentIndex": 6,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
