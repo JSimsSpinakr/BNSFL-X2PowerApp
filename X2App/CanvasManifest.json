@@ -114,10 +114,13 @@
   "ScreenOrder": [
     "Home",
     "BladeNavScreen",
+    "TowerNavScreen",
     "X2BladeInspectionScreen",
     "X2BladeStoragePreInspection",
     "X2BladeStorageInspectionScreen",
     "X2NewBladeScreen",
+    "X2NewGeneratorScreen",
+    "X2NewTowerScreen",
     "NacelleNavScreen",
     "X2NacelleInspectionScreen",
     "X2NewNacelleScreen",

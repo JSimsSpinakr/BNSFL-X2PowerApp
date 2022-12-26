@@ -1,0 +1,83 @@
+TowerNavScreen As screen:
+    LoadingSpinnerColor: =RGBA(100, 118, 132, 1)
+
+    LogoBackdrop2_2 As rectangle:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        Fill: =RGBA(202, 202, 202, 1)
+        Height: =115
+        Width: =640
+        ZIndex: =1
+
+    BladeTitle_1 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(32, 54, 71, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =70
+        Size: =35
+        Text: ="GE X2 Tower"
+        Underline: =true
+        Width: =560
+        X: =40
+        Y: =225
+        ZIndex: =2
+
+    PerformInspectionButton_2 As button:
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(100, 118, 132, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =210
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(100, 118, 132, 1), -20%)
+        OnSelect: =Navigate(X2BladeInspectionScreen);
+        PaddingTop: =
+        Size: =24
+        Text: ="Perform Inspection"
+        Width: =435
+        X: =102
+        Y: =387
+        ZIndex: =3
+
+    AddNewX2BladeButton_1 As button:
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(100, 118, 132, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =210
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(100, 118, 132, 1), -20%)
+        OnSelect: =Navigate(X2NewBladeScreen);
+        Size: =24
+        Text: ="Add New X2 Blade"
+        Width: =435
+        X: =102
+        Y: =700
+        ZIndex: =4
+
+    Icon1_3 As icon.BackArrow:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        Color: =RGBA(32, 54, 71, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(244, 244, 244, 1)
+        Height: =115
+        Icon: =Icon.BackArrow
+        OnSelect: =Back();
+        Width: =102
+        ZIndex: =5
+
+    Icon2_2 As icon.Home:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        Color: =RGBA(32, 54, 71, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(244, 244, 244, 1)
+        Height: =115
+        Icon: =Icon.Home
+        OnSelect: =Navigate(Home);
+        Width: =122
+        X: =507
+        ZIndex: =6
+
