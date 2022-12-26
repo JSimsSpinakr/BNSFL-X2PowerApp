@@ -1,0 +1,90 @@
+{
+  "1712d926-83fc-41f4-a576-7de5a88dfac3": {
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/u/juanq/gateway/greyhound/3000.150.11/1.0.1613.3116/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://bnsflogistics.sharepoint.com/sites/ForkliftInspection": {
+        "dataSources": {
+          "Maintenance Components": {
+            "tableName": "4e56e134-a379-4a6d-8ae6-0cc986ea4a83"
+          },
+          "X2-Blade-Storage Holding List": {
+            "tableName": "135abf7d-388a-49fc-8a9c-ace93c66e4f6"
+          }
+        }
+      },
+      "https://bnsflogistics.sharepoint.com/sites/SpinakrDeveloperSite": {
+        "dataSources": {
+          "Maintenance Components Dev List": {
+            "tableName": "07d8ab31-bce7-4398-a404-d827fc0a1d10"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Maintenance Components",
+      "Maintenance Components Dev List",
+      "X2-Blade-Storage Holding List"
+    ],
+    "dependencies": {},
+    "dependents": [
+      "ee859fa7-cbcc-4135-a410-1fd336a91c07"
+    ],
+    "id": "1712d926-83fc-41f4-a576-7de5a88dfac3"
+  },
+  "ee859fa7-cbcc-4135-a410-1fd336a91c07": {
+    "connectionParameters": {
+      "workFlowCallbackUri": "https://prod-05.westus.logic.azure.com:443/workflows/18833711967d4256a847779a21468c35/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=o-mgoScPSbXM7XbsuBMwifXHw7S3a84bh52GRMkRchI",
+      "workflowEndpoint": "/subscriptions/754abb9d-e636-47dd-b406-0a8f58702e36/resourceGroups/924664f360d8401aa0e4b15efd0ac709-e18b91b8b514ed0b8d3f34797f6c5118-env/providers/Microsoft.Logic/workflows/3418ecd4-b886-4efb-dcd3-d33444ff2192",
+      "workflowEntityId": "e2578509-8a50-ed11-bba1-000d3a31e3d4",
+      "workflowName": "3418ecd4-b886-4efb-dcd3-d33444ff2192",
+      "workflowPath": "/subscriptions/754abb9d-e636-47dd-b406-0a8f58702e36/resourceGroups/924664f360d8401aa0e4b15efd0ac709-e18b91b8b514ed0b8d3f34797f6c5118-env/providers/Microsoft.Logic/workflows/3418ecd4-b886-4efb-dcd3-d33444ff2192"
+    },
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Logic flows",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1534/1.0.1534.2605/logicflows/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
+      "parameterHints": {
+        "1712d926-83fc-41f4-a576-7de5a88dfac3": {
+          "value": "shared_sharepointonline"
+        },
+        "workflowEntityId": {
+          "value": "e2578509-8a50-ed11-bba1-000d3a31e3d4"
+        },
+        "workflowName": {
+          "value": "3418ecd4-b886-4efb-dcd3-d33444ff2192"
+        }
+      },
+      "parameterHintsV2": {
+        "shared_sharepointonline": {
+          "value": "1712d926-83fc-41f4-a576-7de5a88dfac3"
+        },
+        "workflowEntityId": {
+          "value": "e2578509-8a50-ed11-bba1-000d3a31e3d4"
+        },
+        "workflowName": {
+          "value": "3418ecd4-b886-4efb-dcd3-d33444ff2192"
+        }
+      }
+    },
+    "datasets": {},
+    "dataSources": [
+      "SC:AddAttachments-CLIENT"
+    ],
+    "dependencies": {
+      "shared_sharepointonline": "1712d926-83fc-41f4-a576-7de5a88dfac3"
+    },
+    "dependents": [],
+    "id": "ee859fa7-cbcc-4135-a410-1fd336a91c07"
+  }
+}
