@@ -50,7 +50,7 @@ GeneratorNavScreen As screen:
         Height: =210
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(100, 118, 132, 1), -20%)
-        OnSelect: =Navigate(X2NewBladeScreen);
+        OnSelect: =Navigate(X2NewGeneratorScreen);
         Size: =24
         Text: ="Add New X2 Generator"
         Width: =435
