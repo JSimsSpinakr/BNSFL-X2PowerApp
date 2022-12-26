@@ -91,16 +91,6 @@ Home As screen:
         Y: =738
         ZIndex: =6
 
-    Image3 As image:
-        BorderColor: =RGBA(32, 54, 71, 1)
-        DisabledBorderColor: =RGBA(166, 166, 166, 1)
-        DisabledFill: =RGBA(244, 244, 244, 1)
-        Height: =116
-        Image: ='color-logo'
-        Width: =470
-        X: =85
-        ZIndex: =7
-
     Button5 As button:
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
         DisabledColor: =RGBA(166, 166, 166, 1)
@@ -115,5 +105,15 @@ Home As screen:
         Width: =280
         X: =180
         Y: =890
+        ZIndex: =7
+
+    Image3 As image:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Height: =116
+        Image: ='color-logo'
+        Width: =470
+        X: =85
         ZIndex: =7
 
