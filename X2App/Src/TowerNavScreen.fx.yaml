@@ -50,9 +50,9 @@ TowerNavScreen As screen:
         Height: =210
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(100, 118, 132, 1), -20%)
-        OnSelect: =Navigate(X2NewBladeScreen);
+        OnSelect: =Navigate(X2NewTowerScreen);
         Size: =24
-        Text: ="Add New X2 Blade"
+        Text: ="Add New X2 Tower"
         Width: =435
         X: =102
         Y: =700
