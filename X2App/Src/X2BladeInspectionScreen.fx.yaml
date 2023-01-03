@@ -1,0 +1,109 @@
+X2BladeInspectionScreen As screen:
+    LoadingSpinnerColor: =RGBA(100, 118, 132, 1)
+
+    LogoBackdrop3 As rectangle:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        Fill: =RGBA(202, 202, 202, 1)
+        Height: =115
+        Width: =640
+        ZIndex: =1
+
+    X2BladeInspectionTitle As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(32, 54, 71, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =113
+        Size: =35
+        Text: ="GE X2 Blade Inspections"
+        Underline: =true
+        Width: =560
+        X: =40
+        Y: =185
+        ZIndex: =2
+
+    X2BladePreStorageNavButton As button:
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        DisplayMode: =DisplayMode.Disabled
+        Fill: =RGBA(100, 118, 132, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =145
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(100, 118, 132, 1), -20%)
+        Size: =24
+        Text: ="Pre-Storage"
+        Width: =435
+        X: =103
+        Y: =380
+        ZIndex: =3
+
+    X2BladeStorageNavButton As button:
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(100, 118, 132, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =145
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(100, 118, 132, 1), -20%)
+        Size: =24
+        Text: ="Storage"
+        Width: =435
+        X: =103
+        Y: =588
+        ZIndex: =4
+
+    X2BladeReturnToServiceNavButton As button:
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        DisplayMode: =DisplayMode.Disabled
+        Fill: =RGBA(100, 118, 132, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =145
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(100, 118, 132, 1), -20%)
+        Size: =24
+        Text: ="Return to Service"
+        Width: =435
+        X: =103
+        Y: =793
+        ZIndex: =5
+
+    Icon3 As icon.BackArrow:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        Color: =RGBA(32, 54, 71, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(244, 244, 244, 1)
+        Height: =115
+        Icon: =Icon.BackArrow
+        OnSelect: =Back();
+        Width: =103
+        ZIndex: =6
+
+    Icon4 As icon.Home:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        Color: =RGBA(32, 54, 71, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(244, 244, 244, 1)
+        Height: =115
+        Icon: =Icon.Home
+        OnSelect: =Navigate(Home);
+        Width: =104
+        X: =536
+        ZIndex: =7
+
+    Image3_4 As image:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Height: =70
+        Image: ='color-logo'
+        Width: =385
+        X: =122
+        Y: =22
+        ZIndex: =8
+

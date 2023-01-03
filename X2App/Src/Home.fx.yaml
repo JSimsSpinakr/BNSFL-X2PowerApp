@@ -1,0 +1,103 @@
+Home As screen:
+    LoadingSpinnerColor: =RGBA(100, 118, 132, 1)
+
+    LogoBackdrop As rectangle:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        Fill: =RGBA(202, 202, 202, 1)
+        Height: =115
+        Width: =640
+        ZIndex: =1
+
+    Title As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(32, 54, 71, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =70
+        Size: =35
+        Text: ="GE X2 Inspection App"
+        Underline: =true
+        Width: =560
+        X: =40
+        Y: =235
+        ZIndex: =2
+
+    BladeButton As button:
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(100, 118, 132, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =70
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(100, 118, 132, 1), -20%)
+        OnSelect: =Navigate(BladeNavScreen);
+        Size: =24
+        Text: ="Blade"
+        Width: =280
+        X: =180
+        Y: =360
+        ZIndex: =3
+
+    NacelleButton As button:
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(100, 118, 132, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =70
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(100, 118, 132, 1), -20%)
+        OnSelect: =Navigate(NacelleNavScreen);
+        Size: =24
+        Text: ="Nacelle"
+        Width: =280
+        X: =180
+        Y: =483
+        ZIndex: =4
+
+    TowerButton As button:
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(100, 118, 132, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =70
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(100, 118, 132, 1), -20%)
+        OnSelect: =Navigate(TowerNavScreen);
+        Size: =24
+        Text: ="Tower"
+        Width: =280
+        X: =180
+        Y: =613
+        ZIndex: =5
+
+    GeneratorButton As button:
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(100, 118, 132, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =70
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(100, 118, 132, 1), -20%)
+        OnSelect: =Navigate(GeneratorNavScreen);
+        Size: =24
+        Text: ="Generator"
+        Width: =280
+        X: =180
+        Y: =738
+        ZIndex: =6
+
+    Image3 As image:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Height: =116
+        Image: ='color-logo'
+        Width: =470
+        X: =85
+        ZIndex: =7
+
